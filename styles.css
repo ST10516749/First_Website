@@ -1,0 +1,20 @@
+/* apply specific font */
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+/* apply specific font to specific heading*/
+.weather_heading {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: darkred;
+}
+/* div */
+.articleText {
+    background-color: bisque;
+    margin: 20px;
+    border: 3px; 
+    padding: 5;
+    border-radius: 15;
+    box-shadow: 5px 5px 5px rgb(176, 130, 219);
+}
