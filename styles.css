@@ -1,11 +1,17 @@
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* apply specific font */
 h2 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Henny Penny";
     
 }
 /* apply specific font to specific heading*/
 .weather_heading {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Henny Penny";
     font-size: 30px;
     color: darkred;
 }
@@ -17,11 +23,50 @@ h2 {
     padding: 5;
     border-radius: 15;
     box-shadow: 5px 5px 5px rgb(176, 130, 219);
+    overflow: scroll;
+    height:500px;
+    font-family: "Henny Penny";
+    
 }
 a:hover {
     color:brown
 }
+
+a:visited {
+    color: darkgreen;
+}
+
+a {
+    color: blueviolet;
+}
 .nav_list {
     position: fixed;
     background-color: rgb(228, 146, 228);
+   
 }
+ .main_heading {
+    padding: 200px;
+ }
+
+ .sun_image {
+    opacity: 0.5;
+    border: 15px groove; 
+    border-color: #3e8e9e00 ;
+ }
+
+ p {
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    font-family: "Henny Penny";
+ }
+
+ h2 {
+    text-decoration:overline;
+ }
+
+ h3 {
+    font-family: "Henny Penny";
+ }
+ h1 {
+    font-family: "Henny Penny";
+ }
