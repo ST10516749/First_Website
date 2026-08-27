@@ -28,17 +28,7 @@ h2 {
     font-family: "Henny Penny";
     
 }
-a:hover {
-    color:brown
-}
 
-a:visited {
-    color: darkgreen;
-}
-
-a {
-    color: blueviolet;
-}
 .nav_list {
     position: fixed;
     background-color: rgb(228, 146, 228);
@@ -70,3 +60,37 @@ a {
  h1 {
     font-family: "Henny Penny";
  }
+
+ a:link {
+    color: aquamarine; 
+ }
+
+ a:visited {
+    color: rgb(44, 108, 67);
+ }
+
+ a:hover {
+    color: red; text-decoration:underline ;
+ }
+
+ a:active {
+    color: blue;
+ }
+
+ .multi {
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 3px solid rgb(111, 208, 27);
+ }
+
+ li:first-child {
+    font-weight: bold;
+ }
+ li:nth-child(2) {
+    color: darkmagenta;
+    
+ }
+ li:hover {
+    background-color: blanchedalmond;
+ }
+
