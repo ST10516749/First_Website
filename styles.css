@@ -111,5 +111,46 @@ h2 {
  :root {--main-color:#255ac400;}
  h1 {color:var(--main-color);}
 
- 
+/* Smooth animation for headings */
+h1, h2, h3 {
+    transition: all 0.3s ease;
+}
 
+/* Headings move up and change colour when hovered */
+h1:hover,
+h2:hover,
+h3:hover {
+    transform: translateY(-5px);
+    color: #3498db;
+}
+
+/* Animation for all pictures */
+img {
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+/* Pictures zoom, move up and get a shadow */
+img:hover {
+    transform: scale(1.15) translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+
+/* Special animation for your sunny weather picture */
+.sun_image:hover {
+    transform: scale(1.2) rotate(5deg);
+    box-shadow: 0 0 25px rgba(255, 193, 7, 0.8);
+}
+
+/* Animation for the "Hover me" box */
+.box2 {
+    transition: all 0.4s ease;
+}
+
+.box2:hover {
+    transform: scale(1.1) rotate(2deg);
+    background-color: #3498db;
+    color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
